@@ -28,14 +28,14 @@ return (
         </div>
         <div>
         <p className="uppercase text-white ml-[80px] text-[32px] bellefair-regular opacity-[50%] mt-">{current.role}</p>
-        <p className="uppercase text-white ml-[80px] mt-3 bellefair-regular text-[52px]">{current.name}</p>
+        <p className="uppercase text-white ml-[80px] mt-3 bellefair-regular text-5xl">{current.name}</p>
         <p className=" text-[#D0D6F9] w-[400px] ml-[80px] mt-6 bellefair-regular text-[18px] leading-6">{current.bio}</p>
         </div>
         <div className="flex gap-5 ml-[85px] mt-9  text-slate-400">
-        <div className={` rounded-full  w-[10px] h-[10px] cursor-pointer ${isActive === 0 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(0)}></div>
-        <div className={` rounded-full  w-[10px] h-[10px] cursor-pointer ${isActive === 1 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(1)}></div>
-        <div className={` rounded-full  w-[10px] h-[10px] cursor-pointer ${isActive === 2 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(2)}></div>
-        <div className={` rounded-full  w-[10px] h-[10px] cursor-pointer ${isActive === 3 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(3)}></div>
+        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 0 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(0)}></div>
+        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 2 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(2)}></div>
+        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 3 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(3)}></div>
+        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 1 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(1)}></div>
         </div>
     </div>
     
