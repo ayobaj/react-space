@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.explore{
+  border: 2px solid white;
+  background: white;
+  padding: 95px 70px;
+  border-radius: 109px;
+}
+.sections{
+  width: 50%;
+}
+
+/* crew */
+
+.imgdouglas{
+  width: 390px;
+  height: 480px;
+}
