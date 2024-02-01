@@ -19,3 +19,12 @@
   width: 390px;
   height: 480px;
 }
+
+/* technology */
+
+.number-1, .number-2, .number-3{
+  border: 1px solid white;
+  border-radius: 80px;
+  padding: 20px 30px;
+}
+

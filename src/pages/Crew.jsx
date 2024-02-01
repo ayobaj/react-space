@@ -1,4 +1,3 @@
-import image from "../assets/crew/image-douglas-hurley.png"
 import data from '../assets/data.json'
 import bgcrew from '../assets/crew/background-crew-desktop.jpg'
 import { useState } from "react"
@@ -33,9 +32,9 @@ return (
         </div>
         <div className="flex gap-5 ml-[85px] mt-9  text-slate-400">
         <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 0 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(0)}></div>
+        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 1 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(1)}></div>
         <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 2 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(2)}></div>
         <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 3 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(3)}></div>
-        <div className={` rounded-full  w-[15px] h-[15px] cursor-pointer ${isActive === 1 ? 'bg-white' : 'bg-[#979797] opacity-[17%] rounded-full'}`} onClick={()=> handleClick(1)}></div>
         </div>
     </div>
     

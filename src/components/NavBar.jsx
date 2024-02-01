@@ -7,7 +7,7 @@ const NavBar = () => {
             <nav className="nav fixed w-screen justify-between items-center flex flex-row">
 
             <div>
-            <Link to={'/home'}><img src={logo} alt='' className='pl-10 pt-6'></img></Link>
+            <Link to={'/'}><img src={logo} alt='' className='pl-10 pt-6'></img></Link>
             </div>
 
             <hr className='border-1 border-white w-1/3 mt-6 pl-20 '></hr>
@@ -16,7 +16,7 @@ const NavBar = () => {
 
             <div className='sections flex flex-row bg-slate-200/10  backdrop-blur-1xl h-14 mt-7 pt-4 pl-8 text-white relative gap-5'>
 
-            <Link to={'/home'} className='flex flex-row'> <b className='pr-2'>00</b> <p>HOME</p></Link>
+            <Link to={'/'} className='flex flex-row'> <b className='pr-2'>00</b> <p>HOME</p></Link>
 
             <Link to={'/Destination'} className='flex flex-row'> <b className='pr-2'>01</b> <p>DESTINATION</p></Link>
 

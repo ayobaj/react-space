@@ -31,11 +31,11 @@ const Destination = () => {
 
         <p className={`flex flex-row cursor-pointer ${isActive === 0 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(0)}>MOON</p>
 
-        <p className= {`flex flex-row cursor-pointer ${isActive === 1 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(0)}>MARS</p>
+        <p className= {`flex flex-row cursor-pointer ${isActive === 1 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(1)}>MARS</p>
 
-        <p className= {`flex flex-row cursor-pointer ${isActive === 2 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(0)}>EUROPA</p>
+        <p className= {`flex flex-row cursor-pointer ${isActive === 2 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(2)}>EUROPA</p>
 
-        <p className= {`flex flex-row cursor-pointer ${isActive === 3 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(0)}>TITAN</p>
+        <p className= {`flex flex-row cursor-pointer ${isActive === 3 ? 'border-b-2 border-white text-white' : ''}`} onClick={()=> handleClick(3)}>TITAN</p>
 
         </div>
 
